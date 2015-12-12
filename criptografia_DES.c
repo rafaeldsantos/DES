@@ -169,7 +169,7 @@ unsigned long int* gera_chave(unsigned long int chave){
 		tR = C;
 		tL = D;
         unsigned long int temp = C | D;
-		//essa variavel global magica serve para dar print do deslocamento no lugar certo 
+		
 		DESLOCA[i] = temp;
         KN[i] = permutacao_g(temp,PC2, 48,56);
 		
@@ -216,7 +216,7 @@ unsigned long int encriptar(unsigned long int bloco){
         R = KN[i] ^ tempE; //são 48 bits! Esquecer isso pode ser critico
 		if(DEBUG) printf("Add Key: %lX\n",R);
         int sbox = 0;
-		//caixa S - funcionado :D
+		//caixa S
 		unsigned long int tR = R,n;
         for(j=0,n=7;j<8;j++,n--){
 			tR = R;// << 6*j;
