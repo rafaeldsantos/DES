@@ -5,9 +5,7 @@
  *  Prof Doutora Yeda Regina Venturini 
  *  Aluno: Rafael D. Santos Ra: 408654
  * 
- * 	Descricao: Uma implementacao do Algoritmo de Criptografia DES.
- *	Observacoes: Infelizmente essa implementacao so funciona em computadores de arquitetura de 64 bits
- *  quando percebi, era tarde de mais para mudar a abordagem =/.
+ *  Descricao: Uma implementacao do Algoritmo de Criptografia DES.
  *  Entrada: Hexadecimal.
  *  Saida: Hexadecimal.
  *  
